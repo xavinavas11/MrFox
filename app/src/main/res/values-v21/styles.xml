@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="estiloBotones">estilobotones
+        <item name="android:layout_width">@dimen/botonenviaranchura</item>
+        <item name="android:layout_height">@dimen/botonenviaraltura</item>
+
+        <item name="android:background">@drawable/fondogradiente</item>
+        <item name="android:elevation">@dimen/botonenviarelevacion</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">@dimen/tamaniobtnenviar</item>
+
+    </style>
+</resources>

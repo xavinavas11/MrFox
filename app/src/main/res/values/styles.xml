@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/moradoactionbar</item>
+        <item name="colorPrimaryDark">@color/naranjarojizo</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="estiloBotones">estilobotones
+        <item name="android:layout_width">@dimen/botonenviaranchura</item>
+        <item name="android:layout_height">@dimen/botonenviaraltura</item>
+
+        <item name="android:background">@drawable/fondogradiente</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">@dimen/tamaniobtnenviar</item>
+
+    </style>
+
+    <dimen name="botonenviaranchura">170dp</dimen>
+    <dimen name="botonenviaraltura">50dp</dimen>
+    <dimen name="botonenviarelevacion">24dp</dimen>
+    <dimen name="tamaniobtnenviar">20dp</dimen>
+</resources>
